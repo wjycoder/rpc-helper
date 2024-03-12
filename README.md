@@ -2,7 +2,7 @@
 
 ## 安装
 ```
-composer create-project wjy/jsonrpc-client
+composer create-project wjy/rpc-helper
 ```
 
 ## 使用
