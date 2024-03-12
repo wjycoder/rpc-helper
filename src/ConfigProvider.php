@@ -12,6 +12,7 @@ declare(strict_types=1);
 namespace Wjy\JsonrpcClient;
 
 use Wjy\JsonrpcClient\Listeners\RegisterConsumerListener;
+use Wjy\JsonrpcClient\Listeners\RegisterRpcProxy;
 
 class ConfigProvider
 {
@@ -21,7 +22,8 @@ class ConfigProvider
             'dependencies' => [
             ],
             'listeners' => [
-                 RegisterConsumerListener::class
+                 RegisterConsumerListener::class,
+                RegisterRpcProxy::class,
             ],
             'commands' => [
             ],
