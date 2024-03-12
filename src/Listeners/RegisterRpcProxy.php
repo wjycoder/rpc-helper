@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Wjy\JsonrpcClient\Listeners;
+namespace Wjy\RpcHelper\Listeners;
 
 use Hyperf\Context\ApplicationContext;
 use Hyperf\Di\Annotation\AnnotationCollector;
@@ -12,8 +12,8 @@ use Hyperf\HttpServer\Router\DispatcherFactory;
 use Hyperf\HttpServer\Router\Router;
 use Hyperf\Stringable\Str;
 use Psr\Container\ContainerInterface;
-use Wjy\JsonrpcClient\RpcController;
-use Wjy\JsonrpcClient\RpcMapping;
+use Wjy\RpcHelper\RpcController;
+use Wjy\RpcHelper\RpcMapping;
 use function Hyperf\Support\make;
 
 class RegisterRpcProxy implements ListenerInterface

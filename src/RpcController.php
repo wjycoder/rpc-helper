@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Wjy\JsonrpcClient;
+namespace Wjy\RpcHelper;
 
 use Hyperf\Di\Annotation\AbstractAnnotation;
 

@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Wjy\JsonrpcClient\Listeners;
+namespace Wjy\RpcHelper\Listeners;
 
 use Hyperf\Contract\ConfigInterface;
 use Hyperf\Contract\ContainerInterface;
@@ -9,8 +9,8 @@ use Hyperf\Di\Annotation\AnnotationCollector;
 use Hyperf\Di\ReflectionManager;
 use Hyperf\Event\Contract\ListenerInterface;
 use Hyperf\Framework\Event\BeforeMainServerStart;
-use Wjy\JsonrpcClient\Exceptions\RpcClientException;
-use Wjy\JsonrpcClient\RpcClient;
+use Wjy\RpcHelper\Exceptions\RpcClientException;
+use Wjy\RpcHelper\RpcClient;
 
 class RegisterConsumerListener implements ListenerInterface
 {

@@ -9,10 +9,10 @@ declare(strict_types=1);
  * @contact  group@hyperf.io
  * @license  https://github.com/hyperf/hyperf/blob/master/LICENSE
  */
-namespace Wjy\JsonrpcClient;
+namespace Wjy\RpcHelper;
 
-use Wjy\JsonrpcClient\Listeners\RegisterConsumerListener;
-use Wjy\JsonrpcClient\Listeners\RegisterRpcProxy;
+use Wjy\RpcHelper\Listeners\RegisterConsumerListener;
+use Wjy\RpcHelper\Listeners\RegisterRpcProxy;
 
 class ConfigProvider
 {
