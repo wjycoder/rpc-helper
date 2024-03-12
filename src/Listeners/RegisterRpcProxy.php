@@ -54,7 +54,6 @@ class RegisterRpcProxy implements ListenerInterface
                     }
                     $requestPath = $metaData->path ?: $method->getName();
                     $path = $controllerPrefix . '/' . $requestPath;
-                    var_dump($path);
 
                     Router::init($this->container->get(DispatcherFactory::class));
                     Router::addServer($cMetaData->serverName, function () use ($className, $method, $path, $metaData) {
